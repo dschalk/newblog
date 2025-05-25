@@ -1,4 +1,7 @@
-import{f as p,a as l}from"../chunks/D-hE1vav.js";import"../chunks/BkyQyEiz.js";import{s as e,f as c,n as h}from"../chunks/DjjVuYvg.js";import{s as u}from"../chunks/mp63qBuI.js";var d=p(`<h1>Application Maintenance</h1> <p>Using systemd: here's the .service file:</p> <pre></pre> <p>The bash file called by the service file instructs node to execute index.js in the build file.</p> <pre></pre> <p>Edit the application in VS Code and push it to Github. Then, in the server, clone the application and, after updates on the desktop are pushed to Github, run "git pull origin main".</p> <p>WARNING: Don't include the "build" subdirectory in .gitignore. Call "npm run build" on the desktop after revisions, then "git push -u origin main". Then, ssh into the server and call "git pull origin main".</p> <p>Nginx works its reverse-proxy magic on the html files loaded by systemd.</p> <pre></pre> <!> <br/><br/><br/><br/>`,1);function f(o,i){var t=d(),n=e(c(t),4);n.textContent=`[Unit]
+import { d as slot } from './index-BlEcuOp3.js';
+
+function _page($$payload, $$props) {
+  $$payload.out += `<h1>Application Maintenance</h1> <p>Using systemd: here's the .service file:</p> <pre>[Unit]
 Description=blog.service
 After=network.target
 
@@ -11,9 +14,9 @@ Group=u
 
 [Install]
 WantedBy=multi-user.target
-`;var r=e(n,4);r.textContent=`#! /bin/bash
+</pre> <p>The bash file called by the service file instructs node to execute index.js in the build subdirectory.</p> <pre>#! /bin/bash
 cd /home/u/Apps/newblog
-PORT=3007 node build `;var s=e(r,8);s.textContent=`
+PORT=3007 node build </pre> <p>Edit the application in VS Code and push it to Github. Then, in the server, where the application has been cloned, run "git pull origin main". Restart the .service file with "sudo systemctl restart blog"</p> <p>WARNING: Don't include the "build" subdirectory in .gitignore. Call "npm run build" on the desktop after revisions, then "git push -u origin main". Navigate to ~/Apps/newblog and call "git pull origin main".</p> <p>As mentioned above, call "sudo systemctl restart blog". That loads the revised html://localhost:(port) so Nginx can work its reverse-proxy magic on the updated process.</p> <pre>
 cat blog.schalk2.com
 server {
     server_name blog.schalk2.com;
@@ -47,4 +50,10 @@ server {
     listen 80;
     server_name blog.schalk2.com;
     return 404; # managed by Certbot
-} `;var a=e(s,2);u(a,i,"default",{}),h(5),l(o,t)}export{f as component};
+} </pre> <!---->`;
+  slot($$payload, $$props, "default", {});
+  $$payload.out += `<!----> <br/><br/><br/><br/>`;
+}
+
+export { _page as default };
+//# sourceMappingURL=_page.svelte-CkIHx9as.js.map
