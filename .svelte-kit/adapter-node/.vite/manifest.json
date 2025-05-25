@@ -1,0 +1,178 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_equality.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_equality.js",
+      "_index.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_equality.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.MhpTasuq.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/Grover copy/+page.svelte": {
+    "file": "entries/pages/Grover copy/_page.svelte.js",
+    "name": "entries/pages/Grover copy/_page.svelte",
+    "src": "src/routes/Grover copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Grover/+page.svelte": {
+    "file": "entries/pages/Grover/_page.svelte.js",
+    "name": "entries/pages/Grover/_page.svelte",
+    "src": "src/routes/Grover/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Insects copy/+page.svelte": {
+    "file": "entries/pages/Insects copy/_page.svelte.js",
+    "name": "entries/pages/Insects copy/_page.svelte",
+    "src": "src/routes/Insects copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Insects/+page.svelte": {
+    "file": "entries/pages/Insects/_page.svelte.js",
+    "name": "entries/pages/Insects/_page.svelte",
+    "src": "src/routes/Insects/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Nitrate-nitrite-research copy/+page.svelte": {
+    "file": "entries/pages/Nitrate-nitrite-research copy/_page.svelte.js",
+    "name": "entries/pages/Nitrate-nitrite-research copy/_page.svelte",
+    "src": "src/routes/Nitrate-nitrite-research copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Nitrate-nitrite-research/+page.svelte": {
+    "file": "entries/pages/Nitrate-nitrite-research/_page.svelte.js",
+    "name": "entries/pages/Nitrate-nitrite-research/_page.svelte",
+    "src": "src/routes/Nitrate-nitrite-research/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/P_adic copy/+page.svelte": {
+    "file": "entries/pages/P_adic copy/_page.svelte.js",
+    "name": "entries/pages/P_adic copy/_page.svelte",
+    "src": "src/routes/P_adic copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/P_adic/+page.svelte": {
+    "file": "entries/pages/P_adic/_page.svelte.js",
+    "name": "entries/pages/P_adic/_page.svelte",
+    "src": "src/routes/P_adic/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Server copy/+page.svelte": {
+    "file": "entries/pages/Server copy/_page.svelte.js",
+    "name": "entries/pages/Server copy/_page.svelte",
+    "src": "src/routes/Server copy/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/Server/+page.svelte": {
+    "file": "entries/pages/Server/_page.svelte.js",
+    "name": "entries/pages/Server/_page.svelte",
+    "src": "src/routes/Server/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/Variable_Mutation copy/+page.svelte": {
+    "file": "entries/pages/Variable_Mutation copy/_page.svelte.js",
+    "name": "entries/pages/Variable_Mutation copy/_page.svelte",
+    "src": "src/routes/Variable_Mutation copy/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DJKSLXxx.css"
+    ]
+  },
+  "src/routes/Variable_Mutation/+page.svelte": {
+    "file": "entries/pages/Variable_Mutation/_page.svelte.js",
+    "name": "entries/pages/Variable_Mutation/_page.svelte",
+    "src": "src/routes/Variable_Mutation/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DJKSLXxx.css"
+    ]
+  },
+  "src/routes/wave equation copy/+page.svelte": {
+    "file": "entries/pages/wave equation copy/_page.svelte.js",
+    "name": "entries/pages/wave equation copy/_page.svelte",
+    "src": "src/routes/wave equation copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/wave equation/+page.svelte": {
+    "file": "entries/pages/wave equation/_page.svelte.js",
+    "name": "entries/pages/wave equation/_page.svelte",
+    "src": "src/routes/wave equation/+page.svelte",
+    "isEntry": true
+  }
+}
