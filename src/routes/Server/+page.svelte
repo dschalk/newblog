@@ -60,11 +60,11 @@ server {
 <h1>Application Maintenance</h1>
 <p> Using systemd: here's the .service file:</p>
 <pre>{unit}</pre>
-<p> The bash file called by the service file instructs node to execute index.js in the build file. </p>
+<p> The bash file called by the service file instructs node to execute index.js in the build subdirectory. </p>
 <pre>{sh}</pre>
-<p> Edit the application in VS Code and push it to Github. Then, in the server, clone the application and, after updates on the desktop are pushed to Github, run "git pull origin main".  </p>
-<p> WARNING: Don't include the "build" subdirectory in .gitignore. Call "npm run build" on the desktop after revisions, then "git push -u origin main". Then, ssh into the server and call "git pull origin main". </p>
-<p> Nginx works its reverse-proxy magic on the html files loaded by systemd. </p>
+<p> Edit the application in VS Code and push it to Github. Then, in the server, where the application has been cloned, run "git pull origin main". Restart the .service file with "sudo systemctl restart blog" </p>
+<p> WARNING: Don't include the "build" subdirectory in .gitignore. Call "npm run build" on the desktop after revisions, then "git push -u origin main". Navigate to ~/Apps/newblog and call "git pull origin main". </p>
+<p> As mentioned above, call "sudo systemctl restart blog". That loads the revised html://localhost:(port) so Nginx can work its reverse-proxy magic on the updated process. </p>
 <pre>{nginx}</pre>
 
 
