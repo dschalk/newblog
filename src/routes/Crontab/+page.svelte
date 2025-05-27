@@ -5,10 +5,10 @@ var text = `This code runs every hour, on the hour. I want it to continue to run
 #!/usr/bin/env bash
 # Auto-detect the current Xauthority cookie file
 AUTHFILE=(/tmp/xauth*)
-[ -e "${AUTH_FILE[0]}" ] || exit 1
+[ -e "\$\{AUTH_FILE[0]}" ] || exit 1
 # Export X11 env for GUI apps
 export DISPLAY=:0
-export XAUTHORITY="${AUTH_FILE[0]}"
+export XAUTHORITY="\$\{AUTH_FILE[0]}"
 
 # Show your hourly reminder
 /usr/games/xcowsay -t 0 "Pause. Be mindful."EditI understand! You want to keep your current hourly reminder and add a second one for the half hour. Here's what you need:
@@ -18,10 +18,10 @@ Create a new script for the half-hour reminder:
 #!/usr/bin/env bash
 # Auto-detect the current Xauthority cookie file
 AUTH_FILE=(/tmp/xauth_*)
-[ -e "${AUTH_FILE[0]}" ] || exit 1
+[ -e "\$\{AUTH_FILE[0]}" ] || exit 1
 # Export X11 env for GUI apps
 export DISPLAY=:0
-export XAUTHORITY="${AUTH_FILE[0]}"
+export XAUTHORITY="\$\{AUTH_FILE[0]}"
 
 # Show your half-hourly reminder
 /usr/games/xcowsay -t 0 "Deep breathing"
@@ -63,7 +63,5 @@ The cron daemon will automatically pick up the changes.`
 
 <h1> Using Crontab For Reminders</h1>
 <pre>{text}</pre>
-<br><br>
-
 
 

@@ -17,27 +17,29 @@ export const nodes = [
 	() => import('./nodes/13'),
 	() => import('./nodes/14'),
 	() => import('./nodes/15'),
-	() => import('./nodes/16')
+	() => import('./nodes/16'),
+	() => import('./nodes/17')
 ];
 
 export const server_loads = [];
 
 export const dictionary = {
 		"/": [2],
-		"/Grover copy": [4],
-		"/Grover": [3],
-		"/Insects copy": [6],
-		"/Insects": [5],
-		"/Nitrate-nitrite-research copy": [8],
-		"/Nitrate-nitrite-research": [7],
-		"/P_adic copy": [10],
-		"/P_adic": [9],
-		"/Server copy": [12],
-		"/Server": [11],
-		"/Variable_Mutation copy": [14],
-		"/Variable_Mutation": [13],
-		"/wave equation copy": [16],
-		"/wave equation": [15]
+		"/Crontab": [3],
+		"/Grover copy": [5],
+		"/Grover": [4],
+		"/Insects copy": [7],
+		"/Insects": [6],
+		"/Nitrate-nitrite-research copy": [9],
+		"/Nitrate-nitrite-research": [8],
+		"/P_adic copy": [11],
+		"/P_adic": [10],
+		"/Server copy": [13],
+		"/Server": [12],
+		"/Variable_Mutation copy": [15],
+		"/Variable_Mutation": [14],
+		"/wave equation copy": [17],
+		"/wave equation": [16]
 	};
 
 export const hooks = {

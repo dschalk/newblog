@@ -61,7 +61,7 @@
       "_index.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.MhpTasuq.css"
+      "_app/immutable/assets/_layout.dii2_Uv1.css"
     ]
   },
   "src/routes/+page.svelte": {
@@ -72,6 +72,12 @@
     "imports": [
       "_index.js"
     ]
+  },
+  "src/routes/Crontab/+page.svelte": {
+    "file": "entries/pages/Crontab/_page.svelte.js",
+    "name": "entries/pages/Crontab/_page.svelte",
+    "src": "src/routes/Crontab/+page.svelte",
+    "isEntry": true
   },
   "src/routes/Grover copy/+page.svelte": {
     "file": "entries/pages/Grover copy/_page.svelte.js",

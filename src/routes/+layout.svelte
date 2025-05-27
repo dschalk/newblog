@@ -11,6 +11,7 @@
 <a href="./Server">Server</a>
 <a href="./Variable_Mutation">Mutable Variables</a>
 <a href="./P_adic">P adic Numbers</a>
+<a href="./Crontab">Cron</a>
 
 <style>
 
@@ -38,12 +39,7 @@
 
   :global(p) {
     font-size: 22px;
-    color: rgb(207, 245, 250);
-  }
-
-  :global(pre) {
-    font-size: 25;
-    color: rgb(207, 245, 250);
+    color: ivory;
   }
 
   :global(body) {
@@ -51,8 +47,8 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 35px;
-    background-color: #113322;
-    color: #33aa44;
+    color: ivory;
+    background-color: rgb(22, 26, 2);
     margin-top: 20px;
     font-size: 22px;
     font-family: "Proxima Nova Regular,Segoe UI,Roboto,Droid Sans,Helvetica Neue,Arial,sans-serif;";
@@ -98,7 +94,7 @@
 
   :global(pre) {
     font-size:20px;
-    color: #55ffff;
+    color: rgb(194, 242, 238);
     margin-left: 2%;
   }
 
