@@ -55,6 +55,25 @@ server {
     return 404; # managed by Certbot
 } `
 
+var May_28 = `
+u@localhost:/etc/systemd/system$ cat blog.sh
+#! /bin/bash
+cd /home/u/Apps/newblog
+PORT=3007 node build
+
+u@localhost:/etc/systemd/system$ cat recursive-closures.sh
+#! /bin/bash
+cd /home/u/Apps
+PORT=3008 node closures-build
+
+u@localhost:/etc/systemd/system$ cat schalk2.sh
+#! /bin/bash
+cd /home/u/Apps/schalk2
+PORT=3009 node build
+u@localhost:/etc/systemd/system$ `
+
+
+
 </script>
 
 <h1>Application Maintenance</h1>
@@ -66,6 +85,11 @@ server {
 <p> WARNING: Don't include the "build" subdirectory in .gitignore. Call "npm run build" on the desktop after revisions, then "git push -u origin main". Navigate to ~/Apps/newblog and call "git pull origin main". </p>
 <p> As mentioned above, call "sudo systemctl restart blog". That loads the revised html://localhost:(port) so Nginx can work its reverse-proxy magic on the updated process. </p>
 <pre>{nginx}</pre>
+
+<h3>Log Entries April 28, 2025</h3>
+<p> schalk2 and newblog in /home/u/Apps are functioning as described above. Useful-Recursive-Closures-in-Javascript, created with Svelte version 4, is bloated wth multiple versions of essential files and numerous JavaScript files used during development. This morning, I am transferring +page.svelte files from Usefull-Recursive-Closures-in-Javascript to a svelte version 5 SvelteKit app named "m-Mx-closures". </p>
+
+
 
 
 <slot />
