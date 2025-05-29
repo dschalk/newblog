@@ -10,10 +10,10 @@ return {
 	assets: new Set(["favicon.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		client: {start:"_app/immutable/entry/start.QbvrpDMM.js",app:"_app/immutable/entry/app.CmaRcPat.js",imports:["_app/immutable/entry/start.QbvrpDMM.js","_app/immutable/chunks/CGpu5Cnd.js","_app/immutable/chunks/DjjVuYvg.js","_app/immutable/chunks/DBwsKZa4.js","_app/immutable/entry/app.CmaRcPat.js","_app/immutable/chunks/DjjVuYvg.js","_app/immutable/chunks/DXr5GbWP.js","_app/immutable/chunks/D-hE1vav.js","_app/immutable/chunks/DBwsKZa4.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.DrNrf7Sj.js",app:"_app/immutable/entry/app.DBw2U_fs.js",imports:["_app/immutable/entry/start.DrNrf7Sj.js","_app/immutable/chunks/DjOLKdAI.js","_app/immutable/chunks/DjjVuYvg.js","_app/immutable/chunks/DBwsKZa4.js","_app/immutable/entry/app.DBw2U_fs.js","_app/immutable/chunks/DjjVuYvg.js","_app/immutable/chunks/DXr5GbWP.js","_app/immutable/chunks/D-hE1vav.js","_app/immutable/chunks/DBwsKZa4.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
-			__memo(() => import('./chunks/0-B4tSpKzK.js')),
-			__memo(() => import('./chunks/1-DoZv5BYk.js')),
+			__memo(() => import('./chunks/0-B0hxcrTT.js')),
+			__memo(() => import('./chunks/1-C458oNqF.js')),
 			__memo(() => import('./chunks/2-BuZrfM13.js')),
 			__memo(() => import('./chunks/3-BGF079zS.js')),
 			__memo(() => import('./chunks/4-DT8HezOE.js')),
@@ -24,12 +24,13 @@ return {
 			__memo(() => import('./chunks/9-6BbGsyea.js')),
 			__memo(() => import('./chunks/10-DmF6cInH.js')),
 			__memo(() => import('./chunks/11-DS-enxzR.js')),
-			__memo(() => import('./chunks/12-DlGyb7d6.js')),
-			__memo(() => import('./chunks/13-D2B4TPk7.js')),
-			__memo(() => import('./chunks/14-KwuaKbBt.js')),
-			__memo(() => import('./chunks/15-BpCsLkug.js')),
-			__memo(() => import('./chunks/16-CZZL3TWa.js')),
-			__memo(() => import('./chunks/17-ebyb2jfY.js'))
+			__memo(() => import('./chunks/12-BZPIGqsX.js')),
+			__memo(() => import('./chunks/13-oG59ZdDN.js')),
+			__memo(() => import('./chunks/14-COZAbwZe.js')),
+			__memo(() => import('./chunks/15-DeO3XGWe.js')),
+			__memo(() => import('./chunks/16-BprfL-in.js')),
+			__memo(() => import('./chunks/17-ebyb2jfY.js')),
+			__memo(() => import('./chunks/18-Dyf4Fyv2.js'))
 		],
 		routes: [
 			{
@@ -103,45 +104,52 @@ return {
 				endpoint: null
 			},
 			{
+				id: "/Relationships",
+				pattern: /^\/Relationships\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 12 },
+				endpoint: null
+			},
+			{
 				id: "/Server copy",
 				pattern: /^\/Server copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 13 },
+				page: { layouts: [0,], errors: [1,], leaf: 14 },
 				endpoint: null
 			},
 			{
 				id: "/Server",
 				pattern: /^\/Server\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 12 },
+				page: { layouts: [0,], errors: [1,], leaf: 13 },
 				endpoint: null
 			},
 			{
 				id: "/Variable_Mutation copy",
 				pattern: /^\/Variable_Mutation copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 15 },
+				page: { layouts: [0,], errors: [1,], leaf: 16 },
 				endpoint: null
 			},
 			{
 				id: "/Variable_Mutation",
 				pattern: /^\/Variable_Mutation\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 14 },
+				page: { layouts: [0,], errors: [1,], leaf: 15 },
 				endpoint: null
 			},
 			{
 				id: "/wave equation copy",
 				pattern: /^\/wave equation copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 17 },
+				page: { layouts: [0,], errors: [1,], leaf: 18 },
 				endpoint: null
 			},
 			{
 				id: "/wave equation",
 				pattern: /^\/wave equation\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 16 },
+				page: { layouts: [0,], errors: [1,], leaf: 17 },
 				endpoint: null
 			}
 		],

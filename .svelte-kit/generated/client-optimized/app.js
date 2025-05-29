@@ -18,7 +18,8 @@ export const nodes = [
 	() => import('./nodes/14'),
 	() => import('./nodes/15'),
 	() => import('./nodes/16'),
-	() => import('./nodes/17')
+	() => import('./nodes/17'),
+	() => import('./nodes/18')
 ];
 
 export const server_loads = [];
@@ -34,12 +35,13 @@ export const dictionary = {
 		"/Nitrate-nitrite-research": [8],
 		"/P_adic copy": [11],
 		"/P_adic": [10],
-		"/Server copy": [13],
-		"/Server": [12],
-		"/Variable_Mutation copy": [15],
-		"/Variable_Mutation": [14],
-		"/wave equation copy": [17],
-		"/wave equation": [16]
+		"/Relationships": [12],
+		"/Server copy": [14],
+		"/Server": [13],
+		"/Variable_Mutation copy": [16],
+		"/Variable_Mutation": [15],
+		"/wave equation copy": [18],
+		"/wave equation": [17]
 	};
 
 export const hooks = {

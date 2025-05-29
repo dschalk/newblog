@@ -61,7 +61,7 @@
       "_index.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.dii2_Uv1.css"
+      "_app/immutable/assets/_layout.BELQOm7w.css"
     ]
   },
   "src/routes/+page.svelte": {
@@ -125,6 +125,12 @@
     "file": "entries/pages/P_adic/_page.svelte.js",
     "name": "entries/pages/P_adic/_page.svelte",
     "src": "src/routes/P_adic/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Relationships/+page.svelte": {
+    "file": "entries/pages/Relationships/_page.svelte.js",
+    "name": "entries/pages/Relationships/_page.svelte",
+    "src": "src/routes/Relationships/+page.svelte",
     "isEntry": true
   },
   "src/routes/Server copy/+page.svelte": {

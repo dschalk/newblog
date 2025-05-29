@@ -49,7 +49,7 @@ server {
     listen 80;
     server_name blog.schalk2.com;
     return 404; # managed by Certbot
-} </pre> <!---->`;
+} </pre> <h3>Log Entries April 28, 2025</h3> <p>schalk2 and newblog in /home/u/Apps are functioning as described above. Useful-Recursive-Closures-in-Javascript, created with Svelte version 4, is bloated wth multiple versions of essential files and numerous JavaScript files used during development. This morning, I am transferring +page.svelte files from Usefull-Recursive-Closures-in-Javascript to a svelte version 5 SvelteKit app named "m-Mx-closures".</p> <!---->`;
   slot($$payload, $$props, "default", {});
   $$payload.out += `<!----> <br/><br/><br/><br/>`;
 }

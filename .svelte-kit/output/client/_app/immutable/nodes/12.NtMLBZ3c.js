@@ -1,0 +1,1 @@
+import{f as o,a as r}from"../chunks/D-hE1vav.js";import"../chunks/BkyQyEiz.js";import{n as t}from"../chunks/DjjVuYvg.js";var p=o('<h1>You bet!</h1> <a href="https://www.quora.com/Why-does-whipping-excite-some-people">Quora</a> <a href="https://www.youtube.com/results?search_query=+Olivia+Alexa">Olivia Alexa</a>',1);function h(a){var e=p();t(4),r(a,e)}export{h as component};
