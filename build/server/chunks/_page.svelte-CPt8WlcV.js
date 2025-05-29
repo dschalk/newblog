@@ -16,7 +16,7 @@ Group=u
 WantedBy=multi-user.target
 </pre> <p>The bash file called by the service file instructs node to execute index.js in the build subdirectory.</p> <pre>#! /bin/bash
 cd /home/u/Apps/newblog
-PORT=3007 node build </pre> <p>Edit the application in VS Code</p> <p>Enter "cd Apps/newblog".</p> <p>Call "npm run build".</p> <p>Push newblog to Github.</p> <p>In the server, cd ~/Apps and run "git pull origin main". Cause "PORT=3007 node build" by calling "sudo systemctl restart blog". "sudo systemctl reload nginx" might also be required.</p> <p>CAUTION: Don't include the "build" subdirectory in .gitignore. Call "npm run build" on the desktop after revisions, then "git push -u origin main". Navigate to ~/Apps/newblog and call "git pull origin main".</p> <p>As mentioned above, call "sudo systemctl restart blog". That loads the revised html://localhost:(port) so Nginx can work its reverse-proxy magic on the updated process.</p> <pre>
+PORT=3007 node build </pre> <p>Edit the application in VS Code</p> <p>Enter "cd Apps/newblog".</p> <p>Call "npm run build".</p> <p>Push newblog to Github.</p> <p>In the server, cd ~/Apps and run "git pull origin main". For blog (for example), cause "PORT=3007 node build" by calling "sudo systemctl restart blog". Running "sudo systemctl reload nginx" isn't necessary, although it might facilitate instant updating in the browser.</p> <p>CAUTION: Don't include the "build" subdirectory in .gitignore.</p> <p>RECAP: Call "npm run build" on the desktop after revisions, then "git push -u origin main". Navigate to ~/Apps/newblog in the server, and call "git pull origin main". Call "sudo systemctl restart blog". That loads the revised html://localhost:(port) so Nginx can work its reverse-proxy magic on the updated process.</p> <pre>
 cat blog.schalk2.com
 server {
     server_name blog.schalk2.com;
@@ -50,10 +50,10 @@ server {
     listen 80;
     server_name blog.schalk2.com;
     return 404; # managed by Certbot
-} </pre> <h3>Log Entries April 28, 2025</h3> <p>schalk2 and newblog in /home/u/Apps are functioning as described above. Useful-Recursive-Closures-in-Javascript, created with Svelte version 4, is bloated wth multiple versions of essential files and numerous JavaScript files used during development. This morning, I am transferring +page.svelte files from Usefull-Recursive-Closures-in-Javascript to a svelte version 5 SvelteKit app named "m-Mx-closures".</p> <!---->`;
+} </pre> <h3>Log Entries April 29, 2025</h3> <p>schalk2 and newblog in /home/u/Apps are functioning as described above. Useful-Recursive-Closures-in-Javascript, created with Svelte version 4, is bloated wth multiple versions of essential files and numerous JavaScript files used during development. This morning, I am transferring +page.svelte files from Usefull-Recursive-Closures-in-Javascript to a svelte version 5 SvelteKit app named "m-Mx-closures".</p> <!---->`;
   slot($$payload, $$props, "default", {});
   $$payload.out += `<!----> <br/><br/><br/><br/>`;
 }
 
 export { _page as default };
-//# sourceMappingURL=_page.svelte-CsWxH_bc.js.map
+//# sourceMappingURL=_page.svelte-CPt8WlcV.js.map
