@@ -12,6 +12,7 @@
 <a href="./Variable_Mutation">Mutable Variables</a>
 <a href="./P_adic">P adic Numbers</a>
 <a href="./Crontab">Cron</a>
+<a href="./Relationships">Rel</a>
 
 <style>
 
