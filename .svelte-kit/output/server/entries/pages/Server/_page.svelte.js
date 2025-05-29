@@ -15,7 +15,7 @@ Group=u
 WantedBy=multi-user.target
 </pre> <p>The bash file called by the service file instructs node to execute index.js in the build subdirectory.</p> <pre>#! /bin/bash
 cd /home/u/Apps/newblog
-PORT=3007 node build </pre> <p>Edit the application in VS Code and push it to Github. Then, in the server, where the application has been cloned, run "git pull origin main". Restart the .service file with "sudo systemctl restart blog"</p> <p>WARNING: Don't include the "build" subdirectory in .gitignore. Call "npm run build" on the desktop after revisions, then "git push -u origin main". Navigate to ~/Apps/newblog and call "git pull origin main".</p> <p>As mentioned above, call "sudo systemctl restart blog". That loads the revised html://localhost:(port) so Nginx can work its reverse-proxy magic on the updated process.</p> <pre>
+PORT=3007 node build </pre> <p>Edit the application in VS Code</p> <p>Enter "cd Apps/newblog".</p> <p>Call "npm run build".</p> <p>Push newblog to Github.</p> <p>In the server, cd ~/Apps and run "git pull origin main". Cause "PORT=3007 node build" by calling "sudo systemctl restart blog". "sudo systemctl reload nginx" might also be required.</p> <p>CAUTION: Don't include the "build" subdirectory in .gitignore. Call "npm run build" on the desktop after revisions, then "git push -u origin main". Navigate to ~/Apps/newblog and call "git pull origin main".</p> <p>As mentioned above, call "sudo systemctl restart blog". That loads the revised html://localhost:(port) so Nginx can work its reverse-proxy magic on the updated process.</p> <pre>
 cat blog.schalk2.com
 server {
     server_name blog.schalk2.com;

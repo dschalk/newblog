@@ -13,7 +13,7 @@
 <a href="./P_adic">P adic Numbers</a>
 <a href="./Crontab">Cron</a>
 <a href="./Relationships">Rel</a>
-
+  
 <style>
 
   :global(a) {
