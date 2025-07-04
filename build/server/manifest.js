@@ -10,27 +10,34 @@ return {
 	assets: new Set(["favicon.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		client: {start:"_app/immutable/entry/start.NBXJ7DWt.js",app:"_app/immutable/entry/app.D-4o9wMH.js",imports:["_app/immutable/entry/start.NBXJ7DWt.js","_app/immutable/chunks/Dz4IRPs4.js","_app/immutable/chunks/DjjVuYvg.js","_app/immutable/chunks/DBwsKZa4.js","_app/immutable/entry/app.D-4o9wMH.js","_app/immutable/chunks/DjjVuYvg.js","_app/immutable/chunks/DXr5GbWP.js","_app/immutable/chunks/D-hE1vav.js","_app/immutable/chunks/DBwsKZa4.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.qpJnG9Rm.js",app:"_app/immutable/entry/app.BBfwmtAA.js",imports:["_app/immutable/entry/start.qpJnG9Rm.js","_app/immutable/chunks/DpdjkU81.js","_app/immutable/chunks/CMBpGD-e.js","_app/immutable/chunks/CYdGQ45C.js","_app/immutable/entry/app.BBfwmtAA.js","_app/immutable/chunks/CMBpGD-e.js","_app/immutable/chunks/B8XOiu_G.js","_app/immutable/chunks/CcU3PJm1.js","_app/immutable/chunks/CYdGQ45C.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
-			__memo(() => import('./chunks/0-B0hxcrTT.js')),
-			__memo(() => import('./chunks/1-DDtE-k-L.js')),
-			__memo(() => import('./chunks/2-BuZrfM13.js')),
-			__memo(() => import('./chunks/3-BGF079zS.js')),
-			__memo(() => import('./chunks/4-DT8HezOE.js')),
-			__memo(() => import('./chunks/5-DpKQQyzg.js')),
-			__memo(() => import('./chunks/6-BEGA7pXK.js')),
-			__memo(() => import('./chunks/7-CB4Rf8gS.js')),
-			__memo(() => import('./chunks/8-EAU0Mi6V.js')),
-			__memo(() => import('./chunks/9-6BbGsyea.js')),
-			__memo(() => import('./chunks/10-DmF6cInH.js')),
-			__memo(() => import('./chunks/11-DS-enxzR.js')),
-			__memo(() => import('./chunks/12-02DWJLdT.js')),
-			__memo(() => import('./chunks/13-25Kc0itB.js')),
-			__memo(() => import('./chunks/14-COZAbwZe.js')),
-			__memo(() => import('./chunks/15-DeO3XGWe.js')),
-			__memo(() => import('./chunks/16-BprfL-in.js')),
-			__memo(() => import('./chunks/17-ebyb2jfY.js')),
-			__memo(() => import('./chunks/18-Dyf4Fyv2.js'))
+			__memo(() => import('./chunks/0-Cf1-Slmc.js')),
+			__memo(() => import('./chunks/1-BXGmFn7c.js')),
+			__memo(() => import('./chunks/2-DilSv-I6.js')),
+			__memo(() => import('./chunks/3-BYk7MbRj.js')),
+			__memo(() => import('./chunks/4-DeLPQr9L.js')),
+			__memo(() => import('./chunks/5-CGf7D58I.js')),
+			__memo(() => import('./chunks/6-S2Y-_JPR.js')),
+			__memo(() => import('./chunks/7-k_aMpWfY.js')),
+			__memo(() => import('./chunks/8-Bt3AoC8i.js')),
+			__memo(() => import('./chunks/9-CF1llGex.js')),
+			__memo(() => import('./chunks/10-BxbiHzGo.js')),
+			__memo(() => import('./chunks/11-D_TCHXun.js')),
+			__memo(() => import('./chunks/12-DRoPaCJ5.js')),
+			__memo(() => import('./chunks/13-Bx4stE9p.js')),
+			__memo(() => import('./chunks/14-CZS4gjJj.js')),
+			__memo(() => import('./chunks/15-spcyHNrA.js')),
+			__memo(() => import('./chunks/16-C9r8Uwi9.js')),
+			__memo(() => import('./chunks/17-BmEaf_bI.js')),
+			__memo(() => import('./chunks/18-CVSXd2x0.js')),
+			__memo(() => import('./chunks/19-b6OUlwJR.js')),
+			__memo(() => import('./chunks/20-CAexC-k9.js')),
+			__memo(() => import('./chunks/21-DgJj9X-M.js')),
+			__memo(() => import('./chunks/22-CfyY6Hxs.js')),
+			__memo(() => import('./chunks/23-jcqZHUj1.js')),
+			__memo(() => import('./chunks/24-3KWIXFcj.js')),
+			__memo(() => import('./chunks/25-PpzjLJVX.js'))
 		],
 		routes: [
 			{
@@ -48,108 +55,157 @@ return {
 				endpoint: null
 			},
 			{
+				id: "/Dominance_Submission",
+				pattern: /^\/Dominance_Submission\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 4 },
+				endpoint: null
+			},
+			{
+				id: "/Evolution",
+				pattern: /^\/Evolution\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 5 },
+				endpoint: null
+			},
+			{
 				id: "/Grover copy",
 				pattern: /^\/Grover copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 5 },
+				page: { layouts: [0,], errors: [1,], leaf: 7 },
 				endpoint: null
 			},
 			{
 				id: "/Grover",
 				pattern: /^\/Grover\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 4 },
+				page: { layouts: [0,], errors: [1,], leaf: 6 },
 				endpoint: null
 			},
 			{
 				id: "/Insects copy",
 				pattern: /^\/Insects copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 7 },
+				page: { layouts: [0,], errors: [1,], leaf: 9 },
 				endpoint: null
 			},
 			{
 				id: "/Insects",
 				pattern: /^\/Insects\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 6 },
+				page: { layouts: [0,], errors: [1,], leaf: 8 },
+				endpoint: null
+			},
+			{
+				id: "/Machiavelli",
+				pattern: /^\/Machiavelli\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 10 },
+				endpoint: null
+			},
+			{
+				id: "/Metabolic_Flexibility",
+				pattern: /^\/Metabolic_Flexibility\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 11 },
 				endpoint: null
 			},
 			{
 				id: "/Nitrate-nitrite-research copy",
 				pattern: /^\/Nitrate-nitrite-research copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 9 },
+				page: { layouts: [0,], errors: [1,], leaf: 13 },
 				endpoint: null
 			},
 			{
 				id: "/Nitrate-nitrite-research",
 				pattern: /^\/Nitrate-nitrite-research\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 8 },
+				page: { layouts: [0,], errors: [1,], leaf: 12 },
 				endpoint: null
 			},
 			{
 				id: "/P_adic copy",
 				pattern: /^\/P_adic copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 11 },
+				page: { layouts: [0,], errors: [1,], leaf: 15 },
 				endpoint: null
 			},
 			{
 				id: "/P_adic",
 				pattern: /^\/P_adic\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 10 },
+				page: { layouts: [0,], errors: [1,], leaf: 14 },
+				endpoint: null
+			},
+			{
+				id: "/Physics and Cosmology",
+				pattern: /^\/Physics and Cosmology\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 16 },
+				endpoint: null
+			},
+			{
+				id: "/Recursive_Closures",
+				pattern: /^\/Recursive_Closures\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 17 },
 				endpoint: null
 			},
 			{
 				id: "/Relationships",
 				pattern: /^\/Relationships\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 12 },
+				page: { layouts: [0,], errors: [1,], leaf: 18 },
+				endpoint: null
+			},
+			{
+				id: "/ScholarGPT",
+				pattern: /^\/ScholarGPT\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 19 },
 				endpoint: null
 			},
 			{
 				id: "/Server copy",
 				pattern: /^\/Server copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 14 },
+				page: { layouts: [0,], errors: [1,], leaf: 21 },
 				endpoint: null
 			},
 			{
 				id: "/Server",
 				pattern: /^\/Server\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 13 },
+				page: { layouts: [0,], errors: [1,], leaf: 20 },
 				endpoint: null
 			},
 			{
 				id: "/Variable_Mutation copy",
 				pattern: /^\/Variable_Mutation copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 16 },
+				page: { layouts: [0,], errors: [1,], leaf: 23 },
 				endpoint: null
 			},
 			{
 				id: "/Variable_Mutation",
 				pattern: /^\/Variable_Mutation\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 15 },
+				page: { layouts: [0,], errors: [1,], leaf: 22 },
 				endpoint: null
 			},
 			{
 				id: "/wave equation copy",
 				pattern: /^\/wave equation copy\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 18 },
+				page: { layouts: [0,], errors: [1,], leaf: 25 },
 				endpoint: null
 			},
 			{
 				id: "/wave equation",
 				pattern: /^\/wave equation\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 17 },
+				page: { layouts: [0,], errors: [1,], leaf: 24 },
 				endpoint: null
 			}
 		],

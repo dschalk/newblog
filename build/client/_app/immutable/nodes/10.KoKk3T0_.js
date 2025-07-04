@@ -1,0 +1,1 @@
+import{f as e,a as t}from"../chunks/CcU3PJm1.js";import"../chunks/C1z_K0OT.js";import{n as r}from"../chunks/CMBpGD-e.js";var n=e(`<h1>Niccolò Machiavelli'</h1> Vx<a href="https://www.youtube.com/watch?v=-eBWjnE7sGs">'The Prince' by Machiavelli - The Complete Book in Today's Language</a>`,1);function p(a){var o=n();r(2),t(a,o)}export{p as component};

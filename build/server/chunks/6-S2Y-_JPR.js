@@ -1,0 +1,9 @@
+const index = 6;
+let component_cache;
+const component = async () => component_cache ??= (await import('./_page.svelte-BVCQCMgA.js')).default;
+const imports = ["_app/immutable/nodes/6.CWVv68lQ.js","_app/immutable/chunks/CcU3PJm1.js","_app/immutable/chunks/CMBpGD-e.js","_app/immutable/chunks/C1z_K0OT.js"];
+const stylesheets = [];
+const fonts = [];
+
+export { component, fonts, imports, index, stylesheets };
+//# sourceMappingURL=6-S2Y-_JPR.js.map

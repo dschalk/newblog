@@ -12,6 +12,10 @@
     "file": "chunks/equality.js",
     "name": "equality"
   },
+  "_escaping.js": {
+    "file": "chunks/escaping.js",
+    "name": "escaping"
+  },
   "_exports.js": {
     "file": "chunks/exports.js",
     "name": "exports",
@@ -37,6 +41,7 @@
     "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
     "isEntry": true,
     "imports": [
+      "_escaping.js",
       "_index.js",
       "_equality.js",
       "_exports.js"
@@ -79,6 +84,21 @@
     "src": "src/routes/Crontab/+page.svelte",
     "isEntry": true
   },
+  "src/routes/Dominance_Submission/+page.svelte": {
+    "file": "entries/pages/Dominance_Submission/_page.svelte.js",
+    "name": "entries/pages/Dominance_Submission/_page.svelte",
+    "src": "src/routes/Dominance_Submission/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_escaping.js"
+    ]
+  },
+  "src/routes/Evolution/+page.svelte": {
+    "file": "entries/pages/Evolution/_page.svelte.js",
+    "name": "entries/pages/Evolution/_page.svelte",
+    "src": "src/routes/Evolution/+page.svelte",
+    "isEntry": true
+  },
   "src/routes/Grover copy/+page.svelte": {
     "file": "entries/pages/Grover copy/_page.svelte.js",
     "name": "entries/pages/Grover copy/_page.svelte",
@@ -101,6 +121,18 @@
     "file": "entries/pages/Insects/_page.svelte.js",
     "name": "entries/pages/Insects/_page.svelte",
     "src": "src/routes/Insects/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Machiavelli/+page.svelte": {
+    "file": "entries/pages/Machiavelli/_page.svelte.js",
+    "name": "entries/pages/Machiavelli/_page.svelte",
+    "src": "src/routes/Machiavelli/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Metabolic_Flexibility/+page.svelte": {
+    "file": "entries/pages/Metabolic_Flexibility/_page.svelte.js",
+    "name": "entries/pages/Metabolic_Flexibility/_page.svelte",
+    "src": "src/routes/Metabolic_Flexibility/+page.svelte",
     "isEntry": true
   },
   "src/routes/Nitrate-nitrite-research copy/+page.svelte": {
@@ -127,10 +159,28 @@
     "src": "src/routes/P_adic/+page.svelte",
     "isEntry": true
   },
+  "src/routes/Physics and Cosmology/+page.svelte": {
+    "file": "entries/pages/Physics and Cosmology/_page.svelte.js",
+    "name": "entries/pages/Physics and Cosmology/_page.svelte",
+    "src": "src/routes/Physics and Cosmology/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Recursive_Closures/+page.svelte": {
+    "file": "entries/pages/Recursive_Closures/_page.svelte.js",
+    "name": "entries/pages/Recursive_Closures/_page.svelte",
+    "src": "src/routes/Recursive_Closures/+page.svelte",
+    "isEntry": true
+  },
   "src/routes/Relationships/+page.svelte": {
     "file": "entries/pages/Relationships/_page.svelte.js",
     "name": "entries/pages/Relationships/_page.svelte",
     "src": "src/routes/Relationships/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/ScholarGPT/+page.svelte": {
+    "file": "entries/pages/ScholarGPT/_page.svelte.js",
+    "name": "entries/pages/ScholarGPT/_page.svelte",
+    "src": "src/routes/ScholarGPT/+page.svelte",
     "isEntry": true
   },
   "src/routes/Server copy/+page.svelte": {
