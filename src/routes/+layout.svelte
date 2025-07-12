@@ -16,6 +16,8 @@
 <a href="./Relationships">Relationships</a>
 <a href="./Dominance_Submission">Submission in Mate Selection</a>
 <a href="./Machiavelli">Machiavelli</a>
+<a href="./Runes">Runes</a>
+
   
 <style>
 

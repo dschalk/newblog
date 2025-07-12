@@ -160,7 +160,9 @@ Output language
 Tone
 Writing style
 
-`</script>
+`
+
+</script>
 
 <pre>{text}</pre>
 
