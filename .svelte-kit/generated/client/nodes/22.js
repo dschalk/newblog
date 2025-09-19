@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/Variable_Mutation/+page.svelte";
+export { default as component } from "../../../../src/routes/Recursive_Closures/+page.svelte";

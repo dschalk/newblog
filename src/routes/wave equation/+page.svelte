@@ -16,7 +16,7 @@
 <p> Curt Jaimungal and Sean Carroll offer distinct ontological interpretations of the Schrödinger wave equation, reflecting different perspectives on the fundamental nature of reality.</p>
 
 <p> Curt Jaimungal: Jaimungal questions the physical existence of the wave function, suggesting that it is not a direct representation of physical reality. He argues that the wave function is a mathematical tool that simplifies the description of quantum systems but comes at the cost of losing the indivisibility and concrete physical picture of the underlying ontology. According to Jaimungal, the wave function's divisibility and mathematical convenience are achieved by abstracting away the complex, indivisible, and stochastic nature of the physical world. See  <a href='https://www.youtube.com/watch?v=XcY3ZtgYis0'>
-Debunking the “All Possible Paths” Myth: What Feynman Really Showed</a>
+Debunking the “All Possible Paths” Myth: What Feynman Really Showed</a></p>
 
 <p> Sean Carroll: Carroll, on the other hand, defends a more radical position known as "Hilbert Space Fundamentalism" or "Mad-Dog Everettianism." He posits that the fundamental ontology of the world is entirely and exactly represented by a vector in an abstract Hilbert space, evolving according to the Schrödinger equation. In this view, the wave function is a complete and exact representation of reality, and all other physical structures, including space and fields, are emergent from this fundamental description. Carroll argues that the laws of physics are determined solely by the energy eigenspectrum of the Hamiltonian, and the structure of the observed world arises as a higher-level emergent phenomenon.</p>
 

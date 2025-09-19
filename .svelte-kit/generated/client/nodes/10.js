@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/Machiavelli/+page.svelte";
+export { default as component } from "../../../../src/routes/Grover copy/+page.svelte";

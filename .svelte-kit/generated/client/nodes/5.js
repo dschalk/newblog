@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/Evolution/+page.svelte";
+export { default as component } from "../../../../src/routes/Crontab/+page.svelte";

@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/Recursive_Closures/+page.svelte";
+export { default as component } from "../../../../src/routes/Nitrate-nitrite-research copy/+page.svelte";
