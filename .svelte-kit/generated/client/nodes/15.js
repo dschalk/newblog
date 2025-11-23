@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/Metabolic_Flexibility/+page.svelte";
+export { default as component } from "../../../../src/routes/Isreal-US/+page.svelte";

@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/P_adic copy/+page.svelte";
+export { default as component } from "../../../../src/routes/Nitrate-nitrite-research copy/+page.svelte";

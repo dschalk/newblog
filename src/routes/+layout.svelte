@@ -1,224 +1,148 @@
-  <script>
-    import "../style.css"
+
+<script>
+  import '../app.css';
 </script>
-  
 
-<a href = "./">Home</a>
-<a href = "./Sucralose">Sucralose</a>
-<a href = "./Insects">Insect Infestations</a>
-<a href = "./Isreal-US">Isreal-US</a>
-<a href="./wave equation">Schrödinger's Wave Equation</a>
-<a href="./Cosmology">Cosmology</a>
-<a href="./cow">Gina</a>
-<a href="./Metabolic_Flexibility">Metabolic_Flexibility</a>
-<a href="./Grover">Grover's Algorithm </a>
-<a href="./Nitrous_Oxide_synthesis">NO</a>
-<a href="./Nitrate-nitrite-research">Nitrate-Nitrite Research</a>
-<a href="./Server">Server</a>
-<a href="./Creatine">Creatine</a>
-<a href="./Resistance_Workout">Resistance_Workout</a>
-<a href="./Variable_Mutation">Mutable Variables</a>
-<a href="./P_adic">P adic Numbers</a>
-<a href="./Crontab">Cron</a>
-<a href="./Relationships">Relationships</a>
-<a href="./Dominance_Submission">Submission in Mate Selection</a>
-<a href="./Machiavelli">Machiavelli</a>
+<div class="layout">
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/test">test</a>
+      <a href="/love">love</a>
+      <a href="/Thoughtful">Thoughtful</a>
+      <a href="/Blueberries">Blueberries</a>
+    </nav>
+  </header>
 
-  
+  <main class="prose">
+    <slot />
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Site Name</p>
+  </footer>
+</div>
+
 <style>
-
-  :global(a) {
-    color: #e37eec;
-    font-size: 22px;
-  }
-
-  :global(li) {
-    color: #c6c6f8;
-  }
-
-  :global(ul) {
-    color: #c6c6f8;
-  }
-
-  :global(nav) {
-    color: #c6c6f8;
-  }
-
-  :global(html) {
-    background-color:#000;
-    width: 100%;
-  }
-
-  :global(p) {
-    font-size: 22px;
-    color: ivory;
-  }
-
   :global(body) {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 35px;
-    color: ivory;
-    background-color: rgb(22, 26, 2);
-    margin-top: 20px;
-    font-size: 22px;
-    font-family: "Proxima Nova Regular,Segoe UI,Roboto,Droid Sans,Helvetica Neue,Arial,sans-serif;";
-    -webkit-box-shadow: inset 0px 0px 20px 0px rgb(0,0,0);
-    -moz-box-shadow:    inset 0px 0px 20px 0px rgb(0,0,0);
-    box-shadow:         inset 0px 0px 20px 0px rgb(0,0,0);
-    padding: 80px 50px 50px 80px;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: beige;
   }
 
-  :global(input, textarea) {
-    background-color: #efe1a7;
-    color: #000000;
+  .layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header {
+    background: #333;
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  nav {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+
+  nav a:hover {
+    opacity: 0.8;
+  }
+
+  main {
+    flex: 1;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* Markdown/Prose styling */
+  :global(.prose h1) {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  :global(.prose h2) {
+    font-size: 2rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  :global(.prose p) {
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  :global(.prose a) {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  :global(.prose a:hover) {
+    text-decoration: underline;
+  }
+
+  :global(.prose code) {
+    background: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+    font-family: 'Courier New', monospace;
+  }
+
+  :global(.prose pre) {
+    background: #282c34;
+    color: #abb2bf;
+    padding: 1rem;
     border-radius: 5px;
-    -webkit-transition: all 0.60s ease-in-out;
-    -moz-transition: all 0.60s ease-in-out;
-    -ms-transition: all 0.60s ease-in-out;
-    -o-transition: all 0.60s ease-in-out;
-    outline: none;
-    padding: 3px 0px 3px 3px;
-    margin: 5px 1px 3px 0px;
-    border: 3px solid #DDDDDD;
+    overflow-x: auto;
+    margin: 1rem 0;
   }
 
-  :global(input:focus, textarea:focus) {
-    -webkit-box-shadow: 0px 0px 20px 0px rgb(255, 215, 0);
-    -moz-box-shadow:    0px 0px 20px 0px rgb(255, 215, 0);
-    box-shadow:         0px 0px 20px 0px rgb(255, 215, 0);
-    padding: 3px 0px 3px 3px;
+  :global(.prose pre code) {
+    background: none;
+    padding: 0;
+    color: inherit;
   }
 
-  :global(input, checkbox) {
-    background-color: #efe1a7;
-    color: #00AADD;
-    border-radius: 5px;
-    outline: none;
-    -webkit-box-shadow: 0px 0px 20px 0px rgb(255, 215, 0);
-    -moz-box-shadow:    0px 0px 20px 0px rgb(255, 215, 0);
-    box-shadow:         0px 0px 20px 0px rgb(255, 215, 0);
-    padding: 3px 0px 3px 3px;
-    margin: 5px 1px 3px 0px;
-    border: 3px solid #DDDDDD;
+  :global(.prose blockquote) {
+    border-left: 4px solid #ddd;
+    padding-left: 1rem;
+    margin-left: 0;
+    color: #666;
+    font-style: italic;
   }
 
-  :global(pre) {
-    font-size:20px;
-    color: rgb(194, 242, 238);
-    margin-left: 2%;
+  :global(.prose ul, .prose ol) {
+    line-height: 1.7;
+    margin-bottom: 1rem;
   }
 
-  :global(p) {
-    font-size: 25px;
-    text-indent: 3%;
-  }
-  
-  :global(span) {
-    font-size: 25px;
-  }
-
-  :global(button) {
-    margin-left: 5%;
-    background-color: #331903;
-    border-width: 2px;
-    border-color: #E8F7C1;
-    border-radius: 10px;
-    color: #00ffdd;
-    font-size: 24px;
-    -webkit-box-shadow: 0px 0px 15px 0px rgb(255, 215, 0);
-    -moz-box-shadow:    0px 0px 15px 0px rgb(255, 215, 0);
-    box-shadow:         0px 0px 15px 0px rgb(255, 215, 0);
-    padding: 3px 10px 3px 10px;
-  }
-
-  :global(button:hover) {
-    color: blue;
-    background-color: lightblue;
-    border-color: #0000AA;
-    border-radius: 10px;
-  }
-
-   :global(.roll) {
-    margin-left: 8%;
-  }
-
-  :global(label) {
-    background-color: #331903;
-    text-align: left;
-    border-color: #331903;
-    outline: 0px;
-    color: #CCFDCB;
-    border-radius: 10px;
-    padding-top: 1.1px;
-    padding-bottom: 2px;
-    margin-right: 3px;
-    margin-left: 12px;
-    font-size: 24px;
-    display: inline;
-  }
-
-  :global(h3) {
-    color: #efe302;
-    text-align: center;
-    font-size: 25px;
-  }
-
-  :global(h2) {
-    color: #efe302;
-    text-align: center;
-    font-size: 30px;
-  }
-
-  :global(h1) {
-    color: #D6FFFE;
-    text-align: center;
-    font-size: 35px;
-  }
-
-:global(.tao) {
-  margin-left: 3%;
-}
-
-:global(ul) {
-  display:flex;
-  list-style: none;
-  margin: 0;
-  font-size: 11px;
-  color: #bbccff
-}
-</style>  
-
-
-  <!-- <style>
-   /* .container {margin-right: 10px} */
-    :global(ul) {
-      display:flex;
-      list-style: none;
-      margin: 0;
-      font-size: 11px;
-      color: #bbccff
+  :global(.prose img) {
+    max-width: 100%;
+    height: auto;
+	width: 768px; 
+    main {
+      padding: 1rem;
     }
-    li {margin-right: 10px}
-  
-    :global(body) {
-      margin-right: 12%;
-      margin-left:12%;
-      padding-right:3%;
-      color: ivory;
-      padding-left: 3%;
-      background-color: #361B01; ;
-    }
-    :global(p) {text-indent: 3%;}
-    :global(html) {background-color: rgb(0,0,0);}
-    :global(body) {background-color: #361B01;}
-    :global(p) {font-size: 20px;}
-    :global(a) {
-      font-size: 20px;
-      color: 
-    }
-    :global(pre) {font-size: 16px;}
-  </style> -->
 
-  <slot />
+    nav {
+      gap: 1rem;
+    }
+  }
+</style>

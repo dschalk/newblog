@@ -1,0 +1,31 @@
+<svelte:head>
+	<title>Test</title>
+</svelte:head>
+
+<script>
+	const log = console.log;
+	const dF3x = () => {};
+
+	function M2(x) {
+		return function go(func) {
+			if (func === dF3x) {
+				x += 1;
+				return x;
+			} else {
+				x = func(x);
+				return go;
+			}
+		};
+	}
+
+	const m = M2(0);
+	let afgtb7s3T = $state(0);
+
+	function inc() {
+		afgtb7s3T = m(dF3x);
+	}
+</script>
+
+# {afgtb7s3T}
+
+<button style="background-color:aabbcc " onclick={inc}><h1 style="color: blue">Increment</h1></button>

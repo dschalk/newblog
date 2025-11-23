@@ -1,10 +1,10 @@
-import { e as escape_html } from "../../chunks/escaping.js";
+import { g as getContext, e as escape_html } from "../../chunks/context.js";
 import "clsx";
-import { g as getContext, c as pop, p as push } from "../../chunks/index.js";
-import { n as noop } from "../../chunks/equality.js";
+import { n as noop } from "../../chunks/utils2.js";
+import "@sveltejs/kit/internal/server";
+import "@sveltejs/kit/internal";
 import { w as writable } from "../../chunks/exports.js";
-const SNAPSHOT_KEY = "sveltekit:snapshot";
-const SCROLL_KEY = "sveltekit:scroll";
+import "../../chunks/utils.js";
 function create_updated_store() {
   const { set, subscribe } = writable(false);
   {
@@ -28,14 +28,6 @@ if (is_legacy) {
     url: new URL("https://example.com")
   });
 }
-function get(key, parse = JSON.parse) {
-  try {
-    return parse(sessionStorage[key]);
-  } catch {
-  }
-}
-get(SCROLL_KEY) ?? {};
-get(SNAPSHOT_KEY) ?? {};
 const stores = {
   updated: /* @__PURE__ */ create_updated_store()
 };
@@ -54,10 +46,10 @@ const page$1 = {
   }
 };
 const page = page$1;
-function Error$1($$payload, $$props) {
-  push();
-  $$payload.out += `<h1>${escape_html(page.status)}</h1> <p>${escape_html(page.error?.message)}</p>`;
-  pop();
+function Error$1($$renderer, $$props) {
+  $$renderer.component(($$renderer2) => {
+    $$renderer2.push(`<h1>${escape_html(page.status)}</h1> <p>${escape_html(page.error?.message)}</p>`);
+  });
 }
 export {
   Error$1 as default

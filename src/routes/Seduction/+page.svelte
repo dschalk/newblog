@@ -1,8 +1,5 @@
 
 <script>
-import Markdown from 'svelte-markdown';
-
-
 
 var text = `
 https://www.youtube.com/watch?v=IJSyHx0ztTs&ab_channel=DarkPsyche explores unconventional seduction techniques inspired by Machiavellian psychology, emphasizing breaking patterns, cultivating self-assuredness, and creating emotional tension to ignite attraction.
@@ -53,4 +50,4 @@ Detailed Summary for [The Dirtiest Method to Seduce Any Woman — According to M
 - Knowledge without action leads to stagnation; many men fail to act.}
 - Stop hesitating and start taking action; emotional intelligence is more impactful than mere words.}`
       
-
+</script>

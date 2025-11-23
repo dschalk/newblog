@@ -188,25 +188,6 @@ Can you provide specific examples from anthropological studies that support or c
 
 How do evolutionary psychologists explain instances where women appear submissive but actually wield significant influence within their communities?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Answer
 
 Evolutionary psychologists explain the phenomenon where women appear submissive but actually wield significant influence as a complex, adaptive response shaped by both evolutionary pressures and cultural environments. Rather than seeing submissiveness as a simple sign of weakness or lack of agency, many evolutionary and cross-cultural scholars frame it as a strategic behavior—sometimes referred to as strategic compliance or "adaptive performativity
