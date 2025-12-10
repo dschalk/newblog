@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/test/+page.svx";
+export { default as component } from "../../../../src/routes/Creatine/+page.svelte";

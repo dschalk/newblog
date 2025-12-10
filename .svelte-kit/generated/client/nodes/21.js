@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/Nitrous_Oxide_synthesis/+page.svelte";
+export { default as component } from "../../../../src/routes/Nitrate-nitrite-research/+page.svelte";

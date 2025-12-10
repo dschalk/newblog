@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/Gina/+page.svx";
+export { default as component } from "../../../../src/routes/Dominance_Submission/+page.svelte";

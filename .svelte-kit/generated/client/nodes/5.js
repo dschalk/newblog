@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/Creatine/+page.svelte";
+export { default as component } from "../../../../src/routes/Cosmology/+page.svelte";

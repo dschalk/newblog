@@ -7,10 +7,13 @@
   <header>
     <nav>
       <a href="/">Home</a>
-      <a href="/test">test</a>
-      <a href="/love">love</a>
-      <a href="/Thoughtful">Thoughtful</a>
-      <a href="/Blueberries">Blueberries</a>
+      <!--  <a href="/test">test</a>
+      <a href="/love">love</a> -->
+      <a href="/Determinism">Determinism</a>
+      <a href="/SUV">SUV</a>
+      <a href="/Research">Research</a>
+      <a href="/Research_2">Research_2</a>
+<!--      <a href="/Thoughtful">Thoughtful</a> -->
     </nav>
   </header>
 

@@ -21,6 +21,10 @@
     "file": "chunks/equality.js",
     "name": "equality"
   },
+  "_escaping.js": {
+    "file": "chunks/escaping.js",
+    "name": "escaping"
+  },
   "_exports.js": {
     "file": "chunks/exports.js",
     "name": "exports",
@@ -33,6 +37,7 @@
     "file": "chunks/index.js",
     "name": "index",
     "imports": [
+      "_escaping.js",
       "_context.js"
     ]
   },
@@ -131,10 +136,11 @@
     "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
     "isEntry": true,
     "imports": [
-      "_context.js",
+      "_escaping.js",
       "_utils2.js",
       "_exports.js",
-      "_utils.js"
+      "_utils.js",
+      "_context.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
@@ -159,7 +165,7 @@
       "_index.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.iV5udx5Y.css"
+      "_app/immutable/assets/_layout.DZMKBKxm.css"
     ],
     "assets": [
       "_app/immutable/assets/atkinson-hyperlegible-latin-ext-400-normal.DRk46D-x.woff2",
@@ -192,13 +198,247 @@
       "_index.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DNqJTL6E.css"
+      "_app/immutable/assets/_page.35O49yot.css"
+    ]
+  },
+  "src/routes/Cosmology/+page.svelte": {
+    "file": "entries/pages/Cosmology/_page.svelte.js",
+    "name": "entries/pages/Cosmology/_page.svelte",
+    "src": "src/routes/Cosmology/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Creatine/+page.svelte": {
+    "file": "entries/pages/Creatine/_page.svelte.js",
+    "name": "entries/pages/Creatine/_page.svelte",
+    "src": "src/routes/Creatine/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Crontab/+page.svelte": {
+    "file": "entries/pages/Crontab/_page.svelte.js",
+    "name": "entries/pages/Crontab/_page.svelte",
+    "src": "src/routes/Crontab/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Dementia/+page.svelte": {
+    "file": "entries/pages/Dementia/_page.svelte.js",
+    "name": "entries/pages/Dementia/_page.svelte",
+    "src": "src/routes/Dementia/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Dominance_Submission/+page.svelte": {
+    "file": "entries/pages/Dominance_Submission/_page.svelte.js",
+    "name": "entries/pages/Dominance_Submission/_page.svelte",
+    "src": "src/routes/Dominance_Submission/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_escaping.js"
+    ]
+  },
+  "src/routes/Evolution/+page.svelte": {
+    "file": "entries/pages/Evolution/_page.svelte.js",
+    "name": "entries/pages/Evolution/_page.svelte",
+    "src": "src/routes/Evolution/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Gina/+page.svx": {
+    "file": "entries/pages/Gina/_page.svx.js",
+    "name": "entries/pages/Gina/_page.svx",
+    "src": "src/routes/Gina/+page.svx",
+    "isEntry": true
+  },
+  "src/routes/Grover copy/+page.svelte": {
+    "file": "entries/pages/Grover copy/_page.svelte.js",
+    "name": "entries/pages/Grover copy/_page.svelte",
+    "src": "src/routes/Grover copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Grover/+page.svelte": {
+    "file": "entries/pages/Grover/_page.svelte.js",
+    "name": "entries/pages/Grover/_page.svelte",
+    "src": "src/routes/Grover/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Insects copy/+page.svelte": {
+    "file": "entries/pages/Insects copy/_page.svelte.js",
+    "name": "entries/pages/Insects copy/_page.svelte",
+    "src": "src/routes/Insects copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Insects/+page.svelte": {
+    "file": "entries/pages/Insects/_page.svelte.js",
+    "name": "entries/pages/Insects/_page.svelte",
+    "src": "src/routes/Insects/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Isreal-US/+page.svelte": {
+    "file": "entries/pages/Isreal-US/_page.svelte.js",
+    "name": "entries/pages/Isreal-US/_page.svelte",
+    "src": "src/routes/Isreal-US/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Landauer’s principle/+page.svelte": {
+    "file": "entries/pages/Landauer’s principle/_page.svelte.js",
+    "name": "entries/pages/Landauer’s principle/_page.svelte",
+    "src": "src/routes/Landauer’s principle/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Machiavelli/+page.svelte": {
+    "file": "entries/pages/Machiavelli/_page.svelte.js",
+    "name": "entries/pages/Machiavelli/_page.svelte",
+    "src": "src/routes/Machiavelli/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Metabolic_Flexibility/+page.svelte": {
+    "file": "entries/pages/Metabolic_Flexibility/_page.svelte.js",
+    "name": "entries/pages/Metabolic_Flexibility/_page.svelte",
+    "src": "src/routes/Metabolic_Flexibility/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Nitrate-nitrite-research copy/+page.svelte": {
+    "file": "entries/pages/Nitrate-nitrite-research copy/_page.svelte.js",
+    "name": "entries/pages/Nitrate-nitrite-research copy/_page.svelte",
+    "src": "src/routes/Nitrate-nitrite-research copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Nitrate-nitrite-research/+page.svelte": {
+    "file": "entries/pages/Nitrate-nitrite-research/_page.svelte.js",
+    "name": "entries/pages/Nitrate-nitrite-research/_page.svelte",
+    "src": "src/routes/Nitrate-nitrite-research/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Nitrous_Oxide_synthesis/+page.svelte": {
+    "file": "entries/pages/Nitrous_Oxide_synthesis/_page.svelte.js",
+    "name": "entries/pages/Nitrous_Oxide_synthesis/_page.svelte",
+    "src": "src/routes/Nitrous_Oxide_synthesis/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/P_adic copy/+page.svelte": {
+    "file": "entries/pages/P_adic copy/_page.svelte.js",
+    "name": "entries/pages/P_adic copy/_page.svelte",
+    "src": "src/routes/P_adic copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/P_adic/+page.svelte": {
+    "file": "entries/pages/P_adic/_page.svelte.js",
+    "name": "entries/pages/P_adic/_page.svelte",
+    "src": "src/routes/P_adic/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Physics and Cosmology/+page.svelte": {
+    "file": "entries/pages/Physics and Cosmology/_page.svelte.js",
+    "name": "entries/pages/Physics and Cosmology/_page.svelte",
+    "src": "src/routes/Physics and Cosmology/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Recursive_Closures/+page.svelte": {
+    "file": "entries/pages/Recursive_Closures/_page.svelte.js",
+    "name": "entries/pages/Recursive_Closures/_page.svelte",
+    "src": "src/routes/Recursive_Closures/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Relationships/+page.svelte": {
+    "file": "entries/pages/Relationships/_page.svelte.js",
+    "name": "entries/pages/Relationships/_page.svelte",
+    "src": "src/routes/Relationships/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Research/+page.svx": {
+    "file": "entries/pages/Research/_page.svx.js",
+    "name": "entries/pages/Research/_page.svx",
+    "src": "src/routes/Research/+page.svx",
+    "isEntry": true
+  },
+  "src/routes/Research_2/+page.svx": {
+    "file": "entries/pages/Research_2/_page.svx.js",
+    "name": "entries/pages/Research_2/_page.svx",
+    "src": "src/routes/Research_2/+page.svx",
+    "isEntry": true
+  },
+  "src/routes/Resistance_Workout/+page.svelte": {
+    "file": "entries/pages/Resistance_Workout/_page.svelte.js",
+    "name": "entries/pages/Resistance_Workout/_page.svelte",
+    "src": "src/routes/Resistance_Workout/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/SUV/+page.svx": {
+    "file": "entries/pages/SUV/_page.svx.js",
+    "name": "entries/pages/SUV/_page.svx",
+    "src": "src/routes/SUV/+page.svx",
+    "isEntry": true
+  },
+  "src/routes/Seduction/+page.svelte": {
+    "file": "entries/pages/Seduction/_page.svelte.js",
+    "name": "entries/pages/Seduction/_page.svelte",
+    "src": "src/routes/Seduction/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/Server copy/+page.svelte": {
+    "file": "entries/pages/Server copy/_page.svelte.js",
+    "name": "entries/pages/Server copy/_page.svelte",
+    "src": "src/routes/Server copy/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/Server/+page.svelte": {
+    "file": "entries/pages/Server/_page.svelte.js",
+    "name": "entries/pages/Server/_page.svelte",
+    "src": "src/routes/Server/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/Sweeteners/+page.svelte": {
+    "file": "entries/pages/Sweeteners/_page.svelte.js",
+    "name": "entries/pages/Sweeteners/_page.svelte",
+    "src": "src/routes/Sweeteners/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/Thoughtful/+page.svx": {
+    "file": "entries/pages/Thoughtful/_page.svx.js",
+    "name": "entries/pages/Thoughtful/_page.svx",
+    "src": "src/routes/Thoughtful/+page.svx",
+    "isEntry": true
+  },
+  "src/routes/Variable_Mutation copy/+page.svelte": {
+    "file": "entries/pages/Variable_Mutation copy/_page.svelte.js",
+    "name": "entries/pages/Variable_Mutation copy/_page.svelte",
+    "src": "src/routes/Variable_Mutation copy/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.7guRpEkQ.css"
+    ]
+  },
+  "src/routes/Variable_Mutation/+page.svelte": {
+    "file": "entries/pages/Variable_Mutation/_page.svelte.js",
+    "name": "entries/pages/Variable_Mutation/_page.svelte",
+    "src": "src/routes/Variable_Mutation/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.D0i5cU0g.css"
     ]
   },
   "src/routes/about/+page.svelte": {
     "file": "entries/pages/about/_page.svelte.js",
     "name": "entries/pages/about/_page.svelte",
     "src": "src/routes/about/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/love/+page.svx": {
+    "file": "entries/pages/love/_page.svx.js",
+    "name": "entries/pages/love/_page.svx",
+    "src": "src/routes/love/+page.svx",
     "isEntry": true
   },
   "src/routes/test/+page.svx": {
@@ -208,7 +448,19 @@
     "isEntry": true,
     "imports": [
       "_index.js",
-      "_context.js"
+      "_escaping.js"
     ]
+  },
+  "src/routes/wave equation copy/+page.svelte": {
+    "file": "entries/pages/wave equation copy/_page.svelte.js",
+    "name": "entries/pages/wave equation copy/_page.svelte",
+    "src": "src/routes/wave equation copy/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/wave equation/+page.svelte": {
+    "file": "entries/pages/wave equation/_page.svelte.js",
+    "name": "entries/pages/wave equation/_page.svelte",
+    "src": "src/routes/wave equation/+page.svelte",
+    "isEntry": true
   }
 }

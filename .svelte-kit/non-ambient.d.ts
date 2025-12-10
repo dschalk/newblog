@@ -27,17 +27,19 @@ export {};
 
 declare module "$app/types" {
 	export interface AppTypes {
-		RouteId(): "/" | "/Blueberries" | "/Cosmology" | "/Creatine" | "/Crontab" | "/Dementia" | "/Dominance_Submission" | "/Evolution" | "/Gina" | "/Grover copy" | "/Grover" | "/Insects copy" | "/Insects" | "/Isreal-US" | "/Landauer’s principle" | "/Machiavelli" | "/Metabolic_Flexibility" | "/Nitrate-nitrite-research copy" | "/Nitrate-nitrite-research" | "/Nitrous_Oxide_synthesis" | "/P_adic copy" | "/P_adic" | "/Physics and Cosmology" | "/Recursive_Closures" | "/Relationships" | "/Relationships/(99) Philosos - YouTube_files" | "/Resistance_Workout" | "/Seduction" | "/Server copy" | "/Server" | "/Sweeteners" | "/Thoughtful" | "/Variable_Mutation copy" | "/Variable_Mutation" | "/about" | "/love" | "/scholar-gpt" | "/test" | "/wave equation copy" | "/wave equation";
+		RouteId(): "/" | "/AI_Careation" | "/Blueberries" | "/Cosmology" | "/Creatine" | "/Crontab" | "/Dementia" | "/Determinism" | "/Dominance_Submission" | "/Evolution" | "/Gina" | "/Grover copy" | "/Grover" | "/Insects copy" | "/Insects" | "/Isreal-US" | "/Landauer’s principle" | "/Machiavelli" | "/Metabolic_Flexibility" | "/Nitrate-nitrite-research copy" | "/Nitrate-nitrite-research" | "/Nitrous_Oxide_synthesis" | "/P_adic copy" | "/P_adic" | "/Physics and Cosmology" | "/Recursive_Closures" | "/Relationships" | "/Relationships/(99) Philosos - YouTube_files" | "/Research_2" | "/Research" | "/Resistance_Workout" | "/SUV" | "/Seduction" | "/Server copy" | "/Server" | "/Sweeteners" | "/Thoughtful" | "/Variable_Mutation copy" | "/Variable_Mutation" | "/about" | "/love" | "/scholar-gpt" | "/test" | "/wave equation copy" | "/wave equation";
 		RouteParams(): {
 			
 		};
 		LayoutParams(): {
 			"/": Record<string, never>;
+			"/AI_Careation": Record<string, never>;
 			"/Blueberries": Record<string, never>;
 			"/Cosmology": Record<string, never>;
 			"/Creatine": Record<string, never>;
 			"/Crontab": Record<string, never>;
 			"/Dementia": Record<string, never>;
+			"/Determinism": Record<string, never>;
 			"/Dominance_Submission": Record<string, never>;
 			"/Evolution": Record<string, never>;
 			"/Gina": Record<string, never>;
@@ -58,7 +60,10 @@ declare module "$app/types" {
 			"/Recursive_Closures": Record<string, never>;
 			"/Relationships": Record<string, never>;
 			"/Relationships/(99) Philosos - YouTube_files": Record<string, never>;
+			"/Research_2": Record<string, never>;
+			"/Research": Record<string, never>;
 			"/Resistance_Workout": Record<string, never>;
+			"/SUV": Record<string, never>;
 			"/Seduction": Record<string, never>;
 			"/Server copy": Record<string, never>;
 			"/Server": Record<string, never>;
@@ -73,7 +78,7 @@ declare module "$app/types" {
 			"/wave equation copy": Record<string, never>;
 			"/wave equation": Record<string, never>
 		};
-		Pathname(): "/" | "/Blueberries" | "/Blueberries/" | "/Cosmology" | "/Cosmology/" | "/Creatine" | "/Creatine/" | "/Crontab" | "/Crontab/" | "/Dementia" | "/Dementia/" | "/Dominance_Submission" | "/Dominance_Submission/" | "/Evolution" | "/Evolution/" | "/Gina" | "/Gina/" | "/Grover copy" | "/Grover copy/" | "/Grover" | "/Grover/" | "/Insects copy" | "/Insects copy/" | "/Insects" | "/Insects/" | "/Isreal-US" | "/Isreal-US/" | "/Landauer’s principle" | "/Landauer’s principle/" | "/Machiavelli" | "/Machiavelli/" | "/Metabolic_Flexibility" | "/Metabolic_Flexibility/" | "/Nitrate-nitrite-research copy" | "/Nitrate-nitrite-research copy/" | "/Nitrate-nitrite-research" | "/Nitrate-nitrite-research/" | "/Nitrous_Oxide_synthesis" | "/Nitrous_Oxide_synthesis/" | "/P_adic copy" | "/P_adic copy/" | "/P_adic" | "/P_adic/" | "/Physics and Cosmology" | "/Physics and Cosmology/" | "/Recursive_Closures" | "/Recursive_Closures/" | "/Relationships" | "/Relationships/" | "/Relationships/(99) Philosos - YouTube_files" | "/Relationships/(99) Philosos - YouTube_files/" | "/Resistance_Workout" | "/Resistance_Workout/" | "/Seduction" | "/Seduction/" | "/Server copy" | "/Server copy/" | "/Server" | "/Server/" | "/Sweeteners" | "/Sweeteners/" | "/Thoughtful" | "/Thoughtful/" | "/Variable_Mutation copy" | "/Variable_Mutation copy/" | "/Variable_Mutation" | "/Variable_Mutation/" | "/about" | "/about/" | "/love" | "/love/" | "/scholar-gpt" | "/scholar-gpt/" | "/test" | "/test/" | "/wave equation copy" | "/wave equation copy/" | "/wave equation" | "/wave equation/";
+		Pathname(): "/" | "/AI_Careation" | "/AI_Careation/" | "/Blueberries" | "/Blueberries/" | "/Cosmology" | "/Cosmology/" | "/Creatine" | "/Creatine/" | "/Crontab" | "/Crontab/" | "/Dementia" | "/Dementia/" | "/Determinism" | "/Determinism/" | "/Dominance_Submission" | "/Dominance_Submission/" | "/Evolution" | "/Evolution/" | "/Gina" | "/Gina/" | "/Grover copy" | "/Grover copy/" | "/Grover" | "/Grover/" | "/Insects copy" | "/Insects copy/" | "/Insects" | "/Insects/" | "/Isreal-US" | "/Isreal-US/" | "/Landauer’s principle" | "/Landauer’s principle/" | "/Machiavelli" | "/Machiavelli/" | "/Metabolic_Flexibility" | "/Metabolic_Flexibility/" | "/Nitrate-nitrite-research copy" | "/Nitrate-nitrite-research copy/" | "/Nitrate-nitrite-research" | "/Nitrate-nitrite-research/" | "/Nitrous_Oxide_synthesis" | "/Nitrous_Oxide_synthesis/" | "/P_adic copy" | "/P_adic copy/" | "/P_adic" | "/P_adic/" | "/Physics and Cosmology" | "/Physics and Cosmology/" | "/Recursive_Closures" | "/Recursive_Closures/" | "/Relationships" | "/Relationships/" | "/Relationships/(99) Philosos - YouTube_files" | "/Relationships/(99) Philosos - YouTube_files/" | "/Research_2" | "/Research_2/" | "/Research" | "/Research/" | "/Resistance_Workout" | "/Resistance_Workout/" | "/SUV" | "/SUV/" | "/Seduction" | "/Seduction/" | "/Server copy" | "/Server copy/" | "/Server" | "/Server/" | "/Sweeteners" | "/Sweeteners/" | "/Thoughtful" | "/Thoughtful/" | "/Variable_Mutation copy" | "/Variable_Mutation copy/" | "/Variable_Mutation" | "/Variable_Mutation/" | "/about" | "/about/" | "/love" | "/love/" | "/scholar-gpt" | "/scholar-gpt/" | "/test" | "/test/" | "/wave equation copy" | "/wave equation copy/" | "/wave equation" | "/wave equation/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
 		Asset(): "/robots.txt" | string & {};
 	}

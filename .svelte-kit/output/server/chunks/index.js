@@ -1,5 +1,6 @@
-import { e as escape_html, a as set_ssr_context, b as ssr_context, p as push, c as pop } from "./context.js";
+import { e as escape_html } from "./escaping.js";
 import { clsx as clsx$1 } from "clsx";
+import { a as set_ssr_context, b as ssr_context, p as push, c as pop } from "./context.js";
 const DERIVED = 1 << 1;
 const EFFECT = 1 << 2;
 const RENDER_EFFECT = 1 << 3;
@@ -783,6 +784,15 @@ function slot(renderer, $$props, name, slot_props, fallback_fn) {
     slot_fn(renderer, slot_props);
   }
 }
+function bind_props(props_parent, props_now) {
+  for (const key in props_now) {
+    const initial_value = props_parent[key];
+    const value = props_now[key];
+    if (initial_value === void 0 && value !== void 0 && Object.getOwnPropertyDescriptor(props_parent, key)?.set) {
+      props_parent[key] = value;
+    }
+  }
+}
 export {
   ASYNC as A,
   BOUNDARY_EFFECT as B,
@@ -820,5 +830,6 @@ export {
   render as v,
   experimental_async_ssr as w,
   slot as x,
-  head as y
+  head as y,
+  bind_props as z
 };
